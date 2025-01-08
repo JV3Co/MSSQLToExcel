@@ -9,11 +9,16 @@ This Python script exports specified SQL Server tables to an Excel file.
 - Python 3.x installed.
 - Microsoft ODBC Driver for SQL Server installed.
 
+
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/export-script.git
-   cd export-script
+   git clone https://github.com/JV3Co/MSSQLToExcel.git
+   cd MSSQLToExcel
+
+2. After prereqs are installed, install reqs from the requirements file: 
+    pip install -r requirements.txt --user
+
 
 ## Example Commands
 1. Export to Excel with raw field types
